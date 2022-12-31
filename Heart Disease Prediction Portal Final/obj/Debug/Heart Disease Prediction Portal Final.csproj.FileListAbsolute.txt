@@ -1,0 +1,71 @@
+C:\Users\Xinfoz\Desktop\fmnc project\Heart Disease Prediction Portal Final\Heart Disease Prediction Portal Final\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Xinfoz\Desktop\fmnc project\Heart Disease Prediction Portal Final\Heart Disease Prediction Portal Final\bin\Heart Disease Prediction Portal Final.dll
+C:\Users\Xinfoz\Desktop\fmnc project\Heart Disease Prediction Portal Final\Heart Disease Prediction Portal Final\bin\Heart Disease Prediction Portal Final.pdb
+C:\Users\Xinfoz\Desktop\fmnc project\Heart Disease Prediction Portal Final\Heart Disease Prediction Portal Final\obj\Debug\Heart Disease Prediction Portal Final.dll
+C:\Users\Xinfoz\Desktop\fmnc project\Heart Disease Prediction Portal Final\Heart Disease Prediction Portal Final\obj\Debug\Heart Disease Prediction Portal Final.pdb
+D:\project\fmnc project\fmnc project\Heart Disease Prediction Portal Final\Heart Disease Prediction Portal Final\obj\Debug\Heart Disease Prediction Portal Final.dll
+D:\project\fmnc project\fmnc project\Heart Disease Prediction Portal Final\Heart Disease Prediction Portal Final\obj\Debug\Heart Disease Prediction Portal Final.pdb
+D:\project\fmnc project\fmnc project\Heart Disease Prediction Portal Final\Heart Disease Prediction Portal Final\bin\Heart Disease Prediction Portal Final.dll
+D:\project\fmnc project\fmnc project\Heart Disease Prediction Portal Final\Heart Disease Prediction Portal Final\bin\Heart Disease Prediction Portal Final.pdb
+C:\Users\xinfozserver\Desktop\fmnc project\fmnc project\Heart Disease Prediction Portal Final\Heart Disease Prediction Portal Final\bin\Heart Disease Prediction Portal Final.dll
+C:\Users\xinfozserver\Desktop\fmnc project\fmnc project\Heart Disease Prediction Portal Final\Heart Disease Prediction Portal Final\bin\Heart Disease Prediction Portal Final.pdb
+C:\Users\xinfozserver\Desktop\fmnc project\fmnc project\Heart Disease Prediction Portal Final\Heart Disease Prediction Portal Final\obj\Debug\Heart Disease Prediction Portal Final.dll
+C:\Users\xinfozserver\Desktop\fmnc project\fmnc project\Heart Disease Prediction Portal Final\Heart Disease Prediction Portal Final\obj\Debug\Heart Disease Prediction Portal Final.pdb
+E:\fmnc project\fmnc project\Heart Disease Prediction Portal Final\Heart Disease Prediction Portal Final\bin\Heart Disease Prediction Portal Final.dll
+E:\fmnc project\fmnc project\Heart Disease Prediction Portal Final\Heart Disease Prediction Portal Final\bin\Heart Disease Prediction Portal Final.pdb
+E:\fmnc project\fmnc project\Heart Disease Prediction Portal Final\Heart Disease Prediction Portal Final\obj\Debug\Heart Disease Prediction Portal Final.dll
+E:\fmnc project\fmnc project\Heart Disease Prediction Portal Final\Heart Disease Prediction Portal Final\obj\Debug\Heart Disease Prediction Portal Final.pdb
+E:\fmnc project 2021\fmnc project\Heart Disease Prediction Portal Final\Heart Disease Prediction Portal Final\bin\Heart Disease Prediction Portal Final.dll
+E:\fmnc project 2021\fmnc project\Heart Disease Prediction Portal Final\Heart Disease Prediction Portal Final\bin\Heart Disease Prediction Portal Final.pdb
+E:\fmnc project 2021\fmnc project\Heart Disease Prediction Portal Final\Heart Disease Prediction Portal Final\obj\Debug\Heart Disease Prediction Portal Final.dll
+E:\fmnc project 2021\fmnc project\Heart Disease Prediction Portal Final\Heart Disease Prediction Portal Final\obj\Debug\Heart Disease Prediction Portal Final.pdb
+E:\fmnc project 2021\fmnc project\Heart Disease Prediction Portal Final\Heart Disease Prediction Portal Final\bin\IKVM.AWT.WinForms.dll
+E:\fmnc project 2021\fmnc project\Heart Disease Prediction Portal Final\Heart Disease Prediction Portal Final\bin\IKVM.OpenJDK.Beans.dll
+E:\fmnc project 2021\fmnc project\Heart Disease Prediction Portal Final\Heart Disease Prediction Portal Final\bin\IKVM.OpenJDK.Charsets.dll
+E:\fmnc project 2021\fmnc project\Heart Disease Prediction Portal Final\Heart Disease Prediction Portal Final\bin\IKVM.OpenJDK.Corba.dll
+E:\fmnc project 2021\fmnc project\Heart Disease Prediction Portal Final\Heart Disease Prediction Portal Final\bin\IKVM.OpenJDK.Core.dll
+E:\fmnc project 2021\fmnc project\Heart Disease Prediction Portal Final\Heart Disease Prediction Portal Final\bin\IKVM.OpenJDK.Jdbc.dll
+E:\fmnc project 2021\fmnc project\Heart Disease Prediction Portal Final\Heart Disease Prediction Portal Final\bin\IKVM.OpenJDK.Management.dll
+E:\fmnc project 2021\fmnc project\Heart Disease Prediction Portal Final\Heart Disease Prediction Portal Final\bin\IKVM.OpenJDK.Media.dll
+E:\fmnc project 2021\fmnc project\Heart Disease Prediction Portal Final\Heart Disease Prediction Portal Final\bin\IKVM.OpenJDK.Misc.dll
+E:\fmnc project 2021\fmnc project\Heart Disease Prediction Portal Final\Heart Disease Prediction Portal Final\bin\IKVM.OpenJDK.Naming.dll
+E:\fmnc project 2021\fmnc project\Heart Disease Prediction Portal Final\Heart Disease Prediction Portal Final\bin\IKVM.OpenJDK.Remoting.dll
+E:\fmnc project 2021\fmnc project\Heart Disease Prediction Portal Final\Heart Disease Prediction Portal Final\bin\IKVM.OpenJDK.Security.dll
+E:\fmnc project 2021\fmnc project\Heart Disease Prediction Portal Final\Heart Disease Prediction Portal Final\bin\IKVM.OpenJDK.SwingAWT.dll
+E:\fmnc project 2021\fmnc project\Heart Disease Prediction Portal Final\Heart Disease Prediction Portal Final\bin\IKVM.OpenJDK.Text.dll
+E:\fmnc project 2021\fmnc project\Heart Disease Prediction Portal Final\Heart Disease Prediction Portal Final\bin\IKVM.OpenJDK.Util.dll
+E:\fmnc project 2021\fmnc project\Heart Disease Prediction Portal Final\Heart Disease Prediction Portal Final\bin\IKVM.OpenJDK.XML.API.dll
+E:\fmnc project 2021\fmnc project\Heart Disease Prediction Portal Final\Heart Disease Prediction Portal Final\bin\IKVM.OpenJDK.XML.Parse.dll
+E:\fmnc project 2021\fmnc project\Heart Disease Prediction Portal Final\Heart Disease Prediction Portal Final\bin\IKVM.Runtime.dll
+E:\fmnc project 2021\fmnc project\Heart Disease Prediction Portal Final\Heart Disease Prediction Portal Final\bin\IKVM.Runtime.JNI.dll
+E:\fmnc project 2021\fmnc project\Heart Disease Prediction Portal Final\Heart Disease Prediction Portal Final\bin\weka.dll
+E:\fmnc project 2021\fmnc project\Heart Disease Prediction Portal Final\Heart Disease Prediction Portal Final\obj\Debug\Heart Disease Prediction Portal Final.csprojResolveAssemblyReference.cache
+E:\fmnc project 2021 - Copy\fmnc project\Heart Disease Prediction Portal Final\Heart Disease Prediction Portal Final\obj\Debug\Heart Disease Prediction Portal Final.dll
+E:\fmnc project 2021 - Copy\fmnc project\Heart Disease Prediction Portal Final\Heart Disease Prediction Portal Final\obj\Debug\Heart Disease Prediction Portal Final.pdb
+E:\fmnc project 2021 - Copy\fmnc project\Heart Disease Prediction Portal Final\Heart Disease Prediction Portal Final\bin\Heart Disease Prediction Portal Final.dll
+E:\fmnc project 2021 - Copy\fmnc project\Heart Disease Prediction Portal Final\Heart Disease Prediction Portal Final\bin\Heart Disease Prediction Portal Final.pdb
+E:\fmnc project 2021 - Copy\fmnc project\Heart Disease Prediction Portal Final\Heart Disease Prediction Portal Final\bin\IKVM.AWT.WinForms.dll
+E:\fmnc project 2021 - Copy\fmnc project\Heart Disease Prediction Portal Final\Heart Disease Prediction Portal Final\bin\IKVM.OpenJDK.Beans.dll
+E:\fmnc project 2021 - Copy\fmnc project\Heart Disease Prediction Portal Final\Heart Disease Prediction Portal Final\bin\IKVM.OpenJDK.Charsets.dll
+E:\fmnc project 2021 - Copy\fmnc project\Heart Disease Prediction Portal Final\Heart Disease Prediction Portal Final\bin\IKVM.OpenJDK.Corba.dll
+E:\fmnc project 2021 - Copy\fmnc project\Heart Disease Prediction Portal Final\Heart Disease Prediction Portal Final\bin\IKVM.OpenJDK.Core.dll
+E:\fmnc project 2021 - Copy\fmnc project\Heart Disease Prediction Portal Final\Heart Disease Prediction Portal Final\bin\IKVM.OpenJDK.Jdbc.dll
+E:\fmnc project 2021 - Copy\fmnc project\Heart Disease Prediction Portal Final\Heart Disease Prediction Portal Final\bin\IKVM.OpenJDK.Management.dll
+E:\fmnc project 2021 - Copy\fmnc project\Heart Disease Prediction Portal Final\Heart Disease Prediction Portal Final\bin\IKVM.OpenJDK.Media.dll
+E:\fmnc project 2021 - Copy\fmnc project\Heart Disease Prediction Portal Final\Heart Disease Prediction Portal Final\bin\IKVM.OpenJDK.Misc.dll
+E:\fmnc project 2021 - Copy\fmnc project\Heart Disease Prediction Portal Final\Heart Disease Prediction Portal Final\bin\IKVM.OpenJDK.Naming.dll
+E:\fmnc project 2021 - Copy\fmnc project\Heart Disease Prediction Portal Final\Heart Disease Prediction Portal Final\bin\IKVM.OpenJDK.Remoting.dll
+E:\fmnc project 2021 - Copy\fmnc project\Heart Disease Prediction Portal Final\Heart Disease Prediction Portal Final\bin\IKVM.OpenJDK.Security.dll
+E:\fmnc project 2021 - Copy\fmnc project\Heart Disease Prediction Portal Final\Heart Disease Prediction Portal Final\bin\IKVM.OpenJDK.SwingAWT.dll
+E:\fmnc project 2021 - Copy\fmnc project\Heart Disease Prediction Portal Final\Heart Disease Prediction Portal Final\bin\IKVM.OpenJDK.Text.dll
+E:\fmnc project 2021 - Copy\fmnc project\Heart Disease Prediction Portal Final\Heart Disease Prediction Portal Final\bin\IKVM.OpenJDK.Util.dll
+E:\fmnc project 2021 - Copy\fmnc project\Heart Disease Prediction Portal Final\Heart Disease Prediction Portal Final\bin\IKVM.OpenJDK.XML.API.dll
+E:\fmnc project 2021 - Copy\fmnc project\Heart Disease Prediction Portal Final\Heart Disease Prediction Portal Final\bin\IKVM.OpenJDK.XML.Parse.dll
+E:\fmnc project 2021 - Copy\fmnc project\Heart Disease Prediction Portal Final\Heart Disease Prediction Portal Final\bin\IKVM.Runtime.dll
+E:\fmnc project 2021 - Copy\fmnc project\Heart Disease Prediction Portal Final\Heart Disease Prediction Portal Final\bin\IKVM.Runtime.JNI.dll
+E:\fmnc project 2021 - Copy\fmnc project\Heart Disease Prediction Portal Final\Heart Disease Prediction Portal Final\bin\weka.dll
+D:\fmnc project 2021 - Copy\fmnc project\Heart Disease Prediction Portal Final\Heart Disease Prediction Portal Final\bin\Heart Disease Prediction Portal Final.dll
+D:\fmnc project 2021 - Copy\fmnc project\Heart Disease Prediction Portal Final\Heart Disease Prediction Portal Final\bin\Heart Disease Prediction Portal Final.pdb
+D:\fmnc project 2021 - Copy\fmnc project\Heart Disease Prediction Portal Final\Heart Disease Prediction Portal Final\obj\Debug\Heart Disease Prediction Portal Final.dll
+D:\fmnc project 2021 - Copy\fmnc project\Heart Disease Prediction Portal Final\Heart Disease Prediction Portal Final\obj\Debug\Heart Disease Prediction Portal Final.pdb
+D:\fmnc project 2021 - Copy\fmnc project\Heart Disease Prediction Portal Final\Heart Disease Prediction Portal Final\obj\Debug\Heart Disease Prediction Portal Final.csprojResolveAssemblyReference.cache

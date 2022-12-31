@@ -1,0 +1,448 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{8C1659F5-1B1D-4854-A156-827173FB122D}</ProjectGuid>
+    <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Heart_Disease_Prediction_Portal_Final</RootNamespace>
+    <AssemblyName>Heart Disease Prediction Portal Final</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <UseIISExpress>false</UseIISExpress>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="IKVM.AWT.WinForms">
+      <HintPath>..\..\..\..\Stud\heart disease Prediction\bin\IKVM.AWT.WinForms.dll</HintPath>
+    </Reference>
+    <Reference Include="IKVM.OpenJDK.Beans">
+      <HintPath>..\..\..\..\Stud\heart disease Prediction\bin\IKVM.OpenJDK.Beans.dll</HintPath>
+    </Reference>
+    <Reference Include="IKVM.OpenJDK.Charsets">
+      <HintPath>..\..\..\..\Stud\heart disease Prediction\bin\IKVM.OpenJDK.Charsets.dll</HintPath>
+    </Reference>
+    <Reference Include="IKVM.OpenJDK.Corba">
+      <HintPath>..\..\..\..\Stud\heart disease Prediction\bin\IKVM.OpenJDK.Corba.dll</HintPath>
+    </Reference>
+    <Reference Include="IKVM.OpenJDK.Core">
+      <HintPath>..\..\..\..\Stud\heart disease Prediction\bin\IKVM.OpenJDK.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="IKVM.OpenJDK.Jdbc">
+      <HintPath>..\..\..\..\Stud\heart disease Prediction\bin\IKVM.OpenJDK.Jdbc.dll</HintPath>
+    </Reference>
+    <Reference Include="IKVM.OpenJDK.Management">
+      <HintPath>..\..\..\..\Stud\heart disease Prediction\bin\IKVM.OpenJDK.Management.dll</HintPath>
+    </Reference>
+    <Reference Include="IKVM.OpenJDK.Media">
+      <HintPath>..\..\..\..\Stud\heart disease Prediction\bin\IKVM.OpenJDK.Media.dll</HintPath>
+    </Reference>
+    <Reference Include="IKVM.OpenJDK.Misc">
+      <HintPath>..\..\..\..\Stud\heart disease Prediction\bin\IKVM.OpenJDK.Misc.dll</HintPath>
+    </Reference>
+    <Reference Include="IKVM.OpenJDK.Naming">
+      <HintPath>..\..\..\..\Stud\heart disease Prediction\bin\IKVM.OpenJDK.Naming.dll</HintPath>
+    </Reference>
+    <Reference Include="IKVM.OpenJDK.Remoting">
+      <HintPath>..\..\..\..\Stud\heart disease Prediction\bin\IKVM.OpenJDK.Remoting.dll</HintPath>
+    </Reference>
+    <Reference Include="IKVM.OpenJDK.Security">
+      <HintPath>..\..\..\..\Stud\heart disease Prediction\bin\IKVM.OpenJDK.Security.dll</HintPath>
+    </Reference>
+    <Reference Include="IKVM.OpenJDK.SwingAWT">
+      <HintPath>..\..\..\..\Stud\heart disease Prediction\bin\IKVM.OpenJDK.SwingAWT.dll</HintPath>
+    </Reference>
+    <Reference Include="IKVM.OpenJDK.Text">
+      <HintPath>..\..\..\..\Stud\heart disease Prediction\bin\IKVM.OpenJDK.Text.dll</HintPath>
+    </Reference>
+    <Reference Include="IKVM.OpenJDK.Util">
+      <HintPath>..\..\..\..\Stud\heart disease Prediction\bin\IKVM.OpenJDK.Util.dll</HintPath>
+    </Reference>
+    <Reference Include="IKVM.OpenJDK.XML.API">
+      <HintPath>..\..\..\..\Stud\heart disease Prediction\bin\IKVM.OpenJDK.XML.API.dll</HintPath>
+    </Reference>
+    <Reference Include="IKVM.OpenJDK.XML.Parse">
+      <HintPath>..\..\..\..\Stud\heart disease Prediction\bin\IKVM.OpenJDK.XML.Parse.dll</HintPath>
+    </Reference>
+    <Reference Include="IKVM.Runtime">
+      <HintPath>..\..\..\..\Stud\heart disease Prediction\bin\IKVM.Runtime.dll</HintPath>
+    </Reference>
+    <Reference Include="IKVM.Runtime.JNI">
+      <HintPath>..\..\..\..\Stud\heart disease Prediction\bin\IKVM.Runtime.JNI.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Web.DataVisualization" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.EnterpriseServices" />
+    <Reference Include="System.Web.DynamicData" />
+    <Reference Include="System.Web.Entity" />
+    <Reference Include="System.Web.ApplicationServices" />
+    <Reference Include="weka">
+      <HintPath>..\..\..\..\Stud\heart disease Prediction\bin\weka.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="About.aspx" />
+    <Content Include="Account\ChangePassword.aspx" />
+    <Content Include="Account\ChangePasswordSuccess.aspx" />
+    <Content Include="Account\Login.aspx" />
+    <Content Include="Account\Register.aspx" />
+    <Content Include="Admin.aspx" />
+    <Content Include="adminlabreport.aspx" />
+    <Content Include="Adparameter.aspx" />
+    <Content Include="Approve_doctor.aspx" />
+    <Content Include="camilo-jimenez-vGu08RYjO-s-unsplash.jpg" />
+    <Content Include="docconsulting.aspx" />
+    <Content Include="Datasetmgmnt.aspx" />
+    <Content Include="Docfeedback.aspx" />
+    <Content Include="Doctor_Register.aspx" />
+    <Content Include="Doctorhome.aspx" />
+    <Content Include="doctorlabreport.aspx" />
+    <Content Include="doc_prediction__view.aspx" />
+    <Content Include="doubt_view.aspx" />
+    <Content Include="Feedbackview.aspx" />
+    <Content Include="heart.jfif" />
+    <Content Include="Performance_analysis.aspx" />
+    <Content Include="prediction.aspx" />
+    <Content Include="result_analysis.aspx" />
+    <Content Include="result_analysis_doct.aspx" />
+    <Content Include="userlabreport.aspx" />
+    <Content Include="userpred_view.aspx" />
+    <Content Include="User_Register.aspx" />
+    <Content Include="Styles\Site.css" />
+    <Content Include="Default.aspx" />
+    <Content Include="Global.asax" />
+    <Content Include="Scripts\jquery-1.4.1-vsdoc.js" />
+    <Content Include="Scripts\jquery-1.4.1.js" />
+    <Content Include="Scripts\jquery-1.4.1.min.js" />
+    <Content Include="userfeedback.aspx" />
+    <Content Include="userconsult.aspx" />
+    <Content Include="userdoubt.aspx" />
+    <Content Include="userhome.aspx" />
+    <Content Include="Usermanagement.aspx" />
+    <Content Include="view_clinrec.aspx" />
+    <Content Include="view_cnnpredict.aspx" />
+    <Content Include="Web.config">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="Web.Debug.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </Content>
+    <Content Include="Web.Release.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="About.aspx.cs">
+      <DependentUpon>About.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="About.aspx.designer.cs">
+      <DependentUpon>About.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Account\ChangePassword.aspx.cs">
+      <DependentUpon>ChangePassword.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Account\ChangePassword.aspx.designer.cs">
+      <DependentUpon>ChangePassword.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Account\ChangePasswordSuccess.aspx.cs">
+      <DependentUpon>ChangePasswordSuccess.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Account\ChangePasswordSuccess.aspx.designer.cs">
+      <DependentUpon>ChangePasswordSuccess.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Account\Login.aspx.cs">
+      <DependentUpon>Login.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Account\Login.aspx.designer.cs">
+      <DependentUpon>Login.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Account\Register.aspx.cs">
+      <DependentUpon>Register.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Account\Register.aspx.designer.cs">
+      <DependentUpon>Register.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin.aspx.cs">
+      <DependentUpon>Admin.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin.aspx.designer.cs">
+      <DependentUpon>Admin.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="adminlabreport.aspx.cs">
+      <DependentUpon>adminlabreport.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="adminlabreport.aspx.designer.cs">
+      <DependentUpon>adminlabreport.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Adparameter.aspx.cs">
+      <DependentUpon>Adparameter.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Adparameter.aspx.designer.cs">
+      <DependentUpon>Adparameter.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Approve_doctor.aspx.cs">
+      <DependentUpon>Approve_doctor.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Approve_doctor.aspx.designer.cs">
+      <DependentUpon>Approve_doctor.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="docconsulting.aspx.cs">
+      <DependentUpon>docconsulting.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="docconsulting.aspx.designer.cs">
+      <DependentUpon>docconsulting.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Datasetmgmnt.aspx.cs">
+      <DependentUpon>Datasetmgmnt.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Datasetmgmnt.aspx.designer.cs">
+      <DependentUpon>Datasetmgmnt.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="dbconnect.cs" />
+    <Compile Include="Default.aspx.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Default.aspx.designer.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Docfeedback.aspx.cs">
+      <DependentUpon>Docfeedback.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Docfeedback.aspx.designer.cs">
+      <DependentUpon>Docfeedback.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Doctor_Register.aspx.cs">
+      <DependentUpon>Doctor_Register.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Doctor_Register.aspx.designer.cs">
+      <DependentUpon>Doctor_Register.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Doctorhome.aspx.cs">
+      <DependentUpon>Doctorhome.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Doctorhome.aspx.designer.cs">
+      <DependentUpon>Doctorhome.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="doctorlabreport.aspx.cs">
+      <DependentUpon>doctorlabreport.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="doctorlabreport.aspx.designer.cs">
+      <DependentUpon>doctorlabreport.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="doc_prediction__view.aspx.cs">
+      <DependentUpon>doc_prediction__view.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="doc_prediction__view.aspx.designer.cs">
+      <DependentUpon>doc_prediction__view.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="doubt_view.aspx.cs">
+      <DependentUpon>doubt_view.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="doubt_view.aspx.designer.cs">
+      <DependentUpon>doubt_view.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Feedbackview.aspx.cs">
+      <DependentUpon>Feedbackview.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Feedbackview.aspx.designer.cs">
+      <DependentUpon>Feedbackview.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Global.asax.cs">
+      <DependentUpon>Global.asax</DependentUpon>
+    </Compile>
+    <Compile Include="Performance_analysis.aspx.cs">
+      <DependentUpon>Performance_analysis.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Performance_analysis.aspx.designer.cs">
+      <DependentUpon>Performance_analysis.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="prediction.aspx.cs">
+      <DependentUpon>prediction.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="prediction.aspx.designer.cs">
+      <DependentUpon>prediction.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="result_analysis.aspx.cs">
+      <DependentUpon>result_analysis.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="result_analysis.aspx.designer.cs">
+      <DependentUpon>result_analysis.aspx.cs</DependentUpon>
+    </Compile>
+    <Compile Include="result_analysis_doct.aspx.cs">
+      <DependentUpon>result_analysis_doct.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="result_analysis_doct.aspx.designer.cs">
+      <DependentUpon>result_analysis_doct.aspx.cs</DependentUpon>
+    </Compile>
+    <Compile Include="userlabreport.aspx.cs">
+      <DependentUpon>userlabreport.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="userlabreport.aspx.designer.cs">
+      <DependentUpon>userlabreport.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="userpred_view.aspx.cs">
+      <DependentUpon>userpred_view.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="userpred_view.aspx.designer.cs">
+      <DependentUpon>userpred_view.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="User_Register.aspx.cs">
+      <DependentUpon>User_Register.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="User_Register.aspx.designer.cs">
+      <DependentUpon>User_Register.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Site.Master.cs">
+      <DependentUpon>Site.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Site.Master.designer.cs">
+      <DependentUpon>Site.Master</DependentUpon>
+    </Compile>
+    <Compile Include="userfeedback.aspx.cs">
+      <DependentUpon>userfeedback.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="userfeedback.aspx.designer.cs">
+      <DependentUpon>userfeedback.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="userconsult.aspx.cs">
+      <DependentUpon>userconsult.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="userconsult.aspx.designer.cs">
+      <DependentUpon>userconsult.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="userdoubt.aspx.cs">
+      <DependentUpon>userdoubt.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="userdoubt.aspx.designer.cs">
+      <DependentUpon>userdoubt.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="userhome.aspx.cs">
+      <DependentUpon>userhome.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="userhome.aspx.designer.cs">
+      <DependentUpon>userhome.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Usermanagement.aspx.cs">
+      <DependentUpon>Usermanagement.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Usermanagement.aspx.designer.cs">
+      <DependentUpon>Usermanagement.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="view_clinrec.aspx.cs">
+      <DependentUpon>view_clinrec.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="view_clinrec.aspx.designer.cs">
+      <DependentUpon>view_clinrec.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="view_cnnpredict.aspx.cs">
+      <DependentUpon>view_cnnpredict.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="view_cnnpredict.aspx.designer.cs">
+      <DependentUpon>view_cnnpredict.aspx</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="App_Data\" />
+    <Folder Include="Dataset\" />
+    <Folder Include="docimages\" />
+    <Folder Include="userimages\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Account\Web.config" />
+    <Content Include="Site.Master" />
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" />
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>False</UseIIS>
+          <AutoAssignPort>True</AutoAssignPort>
+          <DevelopmentServerPort>51175</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl>
+          </IISUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+          <UseCustomServer>False</UseCustomServer>
+          <CustomServerUrl>
+          </CustomServerUrl>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

@@ -1,0 +1,48 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Site.master.cs" Inherits="Heart_Disease_Prediction_Portal_Final.SiteMaster" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+<head runat="server">
+    <title></title>
+    <link href="~/Styles/Site.css" rel="stylesheet" type="text/css" />
+    <asp:ContentPlaceHolder ID="HeadContent" runat="server">
+    </asp:ContentPlaceHolder>
+    <style type="text/css">
+        .style1
+        {
+            position: relative;
+            margin: 0px;
+            padding: 0px;
+            background: #FFFFFF;
+            width: 100%;
+            color: #FF0000;
+            text-align: center;
+        }
+        .style2
+        {
+            font-family: "Times New Roman", Times, serif;
+            font-size: x-large;
+            background-color: #FFFFFF;
+        }
+    </style>
+</head>
+<body>
+    <form runat="server">
+    <div class="page">
+        <div class="style1">
+            &nbsp;<asp:Image ID="Image1" runat="server" 
+                Height="86px" Width="104px" ImageUrl="~/heart.jfif" />
+            <br />
+            <span class="style2"><strong>HEART DISEASE PREDICTION PORTAL</strong></span></div>
+        <div class="main">
+            <asp:ContentPlaceHolder ID="MainContent" runat="server"/>
+        </div>
+        <div class="clear">
+        </div>
+    </div>
+    <div class="footer">
+        
+    </div>
+    </form>
+</body>
+</html>
